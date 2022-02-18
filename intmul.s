@@ -21,7 +21,7 @@ intmul:
         add x29, sp, #0
         stp x19, x20, [sp, 16]
         stp x21, x22, [sp, 32]
-        str x23, x24, [sp, 48]
+        stp x23, x24, [sp, 48]
 
         mov x24, #1
         lsl x24, x24, #63
