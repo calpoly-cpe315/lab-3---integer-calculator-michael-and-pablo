@@ -9,8 +9,8 @@ main:
     // driver function main lives here, modify this for your other functions
     
     //GARBAGE START
-    mov x0, #5
-    mov x1, #6
+    mov x0, #1468
+    mov x1, #1296
     bl intmul
 end:
     b end
