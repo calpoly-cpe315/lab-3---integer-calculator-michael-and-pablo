@@ -10,7 +10,7 @@ main:
     
     //GARBAGE START
     mov x0, #1468
-    mov x1, #-1296
+    mov x1, #1296
     bl intsub
 end:
     b end
