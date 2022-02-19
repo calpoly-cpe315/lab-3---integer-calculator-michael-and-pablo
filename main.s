@@ -11,7 +11,7 @@ main:
     //GARBAGE START
     mov x0, #1468
     mov x1, #-1296
-    bl intmul
+    bl intsub
 end:
     b end
     //GARBAGE END
