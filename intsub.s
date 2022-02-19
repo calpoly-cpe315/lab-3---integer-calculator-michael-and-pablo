@@ -11,7 +11,7 @@ x20: subtrahend
 
 intsub:
         stp x29, x30, [sp, -32]!
-        add, x29, sp, #0
+        add x29, sp, #0
         stp x19, x20, [sp, 16]
         mov x19, x0
         mov x20, x1
@@ -22,4 +22,6 @@ intsub:
         bl intadd
         mov x1, x19
         bl intadd
+        ldp x19, x20, [sp, 16]
+        ldp x29, x30, [sp], 32
         ret
