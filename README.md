@@ -1,6 +1,10 @@
 # cpe315-lab3
-Lab 3 Starter Code
+Lab 3: Integer Calculator
+
+Names: Michael Noon
+       Pablo Gonzalez
+
+Lab Status: In Progress
 
 To build, simply type 'make'
 
-Modify this file to include your name(s).
