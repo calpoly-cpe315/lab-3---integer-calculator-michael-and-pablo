@@ -47,14 +47,15 @@ calculate:
     b.eq mult
 
     ldr x6, =subtract
-    ldrb w6, [x6]
     cmp w6, w21
     b.eq sub
 
     ldr x6, =addition
-    ldrb w6, [x6]
     cmp w6, w21
     b.eq add
+    ldr x0, =invalid //if invalid tell them and ask if they want to try again
+    bl printf
+    b badi
 
 mult:
     mov x0, x19
@@ -81,6 +82,7 @@ loop:
       mov x1, x0
       ldr w0, =result
       bl printf
+badi:
       ldr w0, =again //Prompt user to do another calculation
       bl printf
       ldr     w0, =scanchar
