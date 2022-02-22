@@ -4,6 +4,8 @@
     .global intmul
 /*
 
+SEE FLOWCHART INCLUDED IN GIT REPO
+
 x19: sum
 x20: mask
 x21: temp

@@ -7,6 +7,8 @@
 x19: minuend
 x20: subtrahend
 
+SEE FLOWCHART INCLUDED IN GIT REPO
+
 */
 
 intsub:

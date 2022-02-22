@@ -5,6 +5,8 @@
 
 /*
 
+SEE FLOWCHART INCLUDED IN GIT REPO
+
 x9: mask
 x10: sum
 x11: carry
@@ -25,7 +27,7 @@ intadd:
         mov x11, #0
         mov x9, #1
 
-        mov x4, #1 //will probably need to figure out a better way to do this
+        mov x4, #1 
         lsl x4, x4, #63
 
 nextb:  
