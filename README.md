@@ -4,7 +4,7 @@ Lab 3: Integer Calculator
 Names: Michael Noon
        Pablo Gonzalez
 
-Lab Status: In Progress
+Lab Status: Complete
 
 To build, simply type 'make'
 
