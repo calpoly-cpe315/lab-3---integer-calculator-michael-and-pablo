@@ -20,7 +20,7 @@ x1: arg2
 
 intadd:
         stp x29, x30, [sp, -16]!
-        add x29, sp, #0
+        mov x29, sp
         mov x10, #0 
         mov x11, #0
         mov x9, #1
