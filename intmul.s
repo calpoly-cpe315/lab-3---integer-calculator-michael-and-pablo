@@ -18,7 +18,7 @@ x1: arg2
 
 intmul:
         stp x29, x30, [sp, -64]! 
-        add x29, sp, #0
+        mov x29, sp
         stp x19, x20, [sp, 16]
         stp x21, x22, [sp, 32]
         stp x23, x24, [sp, 48]
