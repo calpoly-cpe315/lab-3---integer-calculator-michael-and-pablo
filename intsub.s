@@ -11,7 +11,7 @@ x20: subtrahend
 
 intsub:
         stp x29, x30, [sp, -32]!
-        add x29, sp, #0
+        mov x29, sp
         stp x19, x20, [sp, 16]
         mov x19, x0
         mov x20, x1
